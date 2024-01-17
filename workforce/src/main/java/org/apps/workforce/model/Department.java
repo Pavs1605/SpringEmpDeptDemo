@@ -19,16 +19,6 @@ public class Department {
     @OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
     Set<Employee> employees;
 
-    public Department()
-    {
-        this.employees = new HashSet<>();
-    }
-    public Department(String departmentId, String departmentName, String departmentLocation, Set<Employee> employees) {
-        this.departmentId = departmentId;
-        this.departmentName = departmentName;
-        this.departmentLocation = departmentLocation;
-        this.employees = new HashSet<>();
-    }
 
     public String getDepartmentLocation() {
         return departmentLocation;

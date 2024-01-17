@@ -13,7 +13,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/departments")
-@CrossOrigin(origins = "http://localhost:3000", methods={RequestMethod.DELETE,RequestMethod.OPTIONS, RequestMethod.GET, RequestMethod.PUT, RequestMethod.POST, RequestMethod.PATCH})
+@CrossOrigin(origins = "*", methods={RequestMethod.DELETE,RequestMethod.OPTIONS, RequestMethod.GET, RequestMethod.PUT, RequestMethod.POST, RequestMethod.PATCH})
 public class DepartmentController {
     @Autowired
     DepartmentService departmentService;
