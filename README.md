@@ -9,10 +9,3 @@ This is a simple Spring Boot application with a React frontend that manages empl
 * REST API's
 * H2 Database
 * Apache Tomcat Server
-
-## Entities
-Department
-Represents a department in the organization.
-
-## Employee
-Represents an employee working in the organization.
