@@ -10,6 +10,5 @@ This is a simple Spring Boot application with a React frontend that manages empl
 * H2 Database
 * Apache Tomcat Server
 
-# Created products page with plain html & css
-![image](https://github.com/Pavs1605/SpringEmpDeptDemo/assets/18229871/e4f3cf8a-6216-45e3-8259-482f674ac657)
+API documentation - https://github.com/Pavs1605/SpringEmpDeptDemo/blob/main/workforce/README.md
 
