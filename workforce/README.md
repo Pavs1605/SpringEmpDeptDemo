@@ -1,5 +1,5 @@
 # Employee & Department Management App
-This is a simple Spring Boot application with a React frontend that manages employees and departments. The main design rule is that one department can have multiple employees.
+This is a simple Spring Boot application with a React frontend that manages employees and departments. 
 
 ## TECHSTACK
 * Java Spring boot
